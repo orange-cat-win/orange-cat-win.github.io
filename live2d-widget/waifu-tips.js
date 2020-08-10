@@ -2,12 +2,12 @@
  * Live2D Widget
  * https://github.com/stevenjoezhang/live2d-widget
  */
-live2d_settings['waifuEdgeSide']        = 'left:768';     // 看板娘贴边方向，例如 'left:0'(靠左 0px), 'right:30'(靠右 30px)
+
 function loadWidget(config) {
 	let { waifuPath, apiPath, cdnPath } = config;
-	
-		useCDN = true;let useCDN = false, modelList;
+	let useCDN = false, modelList;
 	if (typeof cdnPath === "string") {
+		useCDN = true;
 		if (!cdnPath.endsWith("/")) cdnPath += "/";
 	} else if (typeof apiPath === "string") {
 		if (!apiPath.endsWith("/")) apiPath += "/";
