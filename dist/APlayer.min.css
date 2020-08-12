@@ -11,7 +11,7 @@
 	user-select:none;
 	line-height:normal;
 	position:relative;
-	right:0px;
+	top:5px;
 }
 .aplayer * {
 	box-sizing:content-box
