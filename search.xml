@@ -33,6 +33,22 @@
       </tags>
   </entry>
   <entry>
+    <title>你好呀Pio酱</title>
+    <url>/orange-cat-win.github.io/2020/08/12/firstblog/</url>
+    <content><![CDATA[<h2 id="随笔"><a href="#随笔" class="headerlink" title="随笔"></a>随笔</h2><p>终于搭建好自己的博客了，面板娘也确实好萌<br>昨天一直上传到github失败，背景图片点击特效都不见了</p>
+<a id="more"></a>
+<p><img src="cry.jpg"><br>不过今天早上打开网页发现居然成功啦<br>原来是这个github外网太慢,加载时间长的问题o(╥﹏╥)o<br>博客采用的是基于github+hexo搭建的<br>这种应该是最<strong>简单</strong>的博客搭建方式了<br>写博客的话是用markdown标记语言和typora编辑器相结合的<br>以后会把自己学习当中的心得啊使用编程语言的知识都不断的<br>更新我这个博客，等到自己有实力的时候慢慢的把博客变的美观吧<br>我把看过搭建成功的教程给大家一下链接吧</p>
+<h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p>1.<a href="https://www.bilibili.com/video/BV1cW411A7Jx#reply3319197381">手把手教你搭建属于自己的hexo+github博客</a><br>  这个视频介绍了大概需要安装的软件,github注册设置和hexo的使用那些必须的内容<br>2.<a href="https://www.bilibili.com/video/BV16W411t7mq?from=search&seid=5303042034556358051">使用Hexo博客搭建的个人博客，使用Next主题来进行优化改造</a><br>  这个视频讲解了使用hexo博客next主题框架的修改，修改一番博客就可以使用啦<br>3.<a href="https://blog.pangao.vip/Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E4%B9%8B%E6%96%B0%E5%A2%9E%E7%9C%8B%E6%9D%BF%E5%A8%98(%E8%83%BD%E8%AF%B4%E8%AF%9D%E3%80%81%E8%83%BD%E6%8D%A2%E8%A3%85)/">Hexo博客NexT主题美化之新增看板娘</a><br>  这个博客讲解教会你如何增加看板娘，操作使用看板娘，墙裂推荐<br>4.<a href="https://bestzuo.cn/posts/446056512.html">给博客添加鼠标点击特效</a><br>  这个博客讲解怎么添加鼠标特效，直接饮用就好啦<br>其他的还有使用网易云音乐，增加背景图片，如何使用hexo博客图片，valine评论系统的魔改等等百度一下就好啦，如果搭建像我这样简单的博客系统，一天时间其实就绰绰有余了，像其他那些大佬搭建复杂的那些很炫酷的博客，那个我就心有余而力不足啦</p>
+]]></content>
+      <categories>
+        <category>生活点滴</category>
+      </categories>
+      <tags>
+        <tag>首篇文章</tag>
+        <tag>小小开心</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>sort排序讲解</title>
     <url>/orange-cat-win.github.io/2020/08/12/sort%E6%8E%92%E5%BA%8F%E8%AE%B2%E8%A7%A3/</url>
     <content><![CDATA[<h3 id="1-需要头文件算法库"><a href="#1-需要头文件算法库" class="headerlink" title="1.需要头文件算法库"></a>1.需要头文件算法库</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br></pre></td></tr></table></figure>
@@ -64,52 +80,6 @@
         <tag>sort函数</tag>
         <tag>排序算法</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>你好呀Pio酱</title>
-    <url>/orange-cat-win.github.io/2020/08/12/firstblog/</url>
-    <content><![CDATA[<h2 id="随笔"><a href="#随笔" class="headerlink" title="随笔"></a>随笔</h2><p>终于搭建好自己的博客了，面板娘也确实好萌<br>昨天一直上传到github失败，背景图片点击特效都不见了</p>
-<a id="more"></a>
-<p><img src="cry.jpg"><br>不过今天早上打开网页发现居然成功啦<br>原来是这个github外网太慢,加载时间长的问题o(╥﹏╥)o<br>博客采用的是基于github+hexo搭建的<br>这种应该是最<strong>简单</strong>的博客搭建方式了<br>写博客的话是用markdown标记语言和typora编辑器相结合的<br>以后会把自己学习当中的心得啊使用编程语言的知识都不断的<br>更新我这个博客，等到自己有实力的时候慢慢的把博客变的美观吧<br>我把看过搭建成功的教程给大家一下链接吧</p>
-<h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p>1.<a href="https://www.bilibili.com/video/BV1cW411A7Jx#reply3319197381">手把手教你搭建属于自己的hexo+github博客</a><br>  这个视频介绍了大概需要安装的软件,github注册设置和hexo的使用那些必须的内容<br>2.<a href="https://www.bilibili.com/video/BV16W411t7mq?from=search&seid=5303042034556358051">使用Hexo博客搭建的个人博客，使用Next主题来进行优化改造</a><br>  这个视频讲解了使用hexo博客next主题框架的修改，修改一番博客就可以使用啦<br>3.<a href="https://blog.pangao.vip/Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E4%B9%8B%E6%96%B0%E5%A2%9E%E7%9C%8B%E6%9D%BF%E5%A8%98(%E8%83%BD%E8%AF%B4%E8%AF%9D%E3%80%81%E8%83%BD%E6%8D%A2%E8%A3%85)/">Hexo博客NexT主题美化之新增看板娘</a><br>  这个博客讲解教会你如何增加看板娘，操作使用看板娘，墙裂推荐<br>4.<a href="https://bestzuo.cn/posts/446056512.html">给博客添加鼠标点击特效</a><br>  这个博客讲解怎么添加鼠标特效，直接饮用就好啦<br>其他的还有使用网易云音乐，增加背景图片，如何使用hexo博客图片，valine评论系统的魔改等等百度一下就好啦，如果搭建像我这样简单的博客系统，一天时间其实就绰绰有余了，像其他那些大佬搭建复杂的那些很炫酷的博客，那个我就心有余而力不足啦</p>
-]]></content>
-      <categories>
-        <category>生活点滴</category>
-      </categories>
-      <tags>
-        <tag>首篇文章</tag>
-        <tag>小小开心</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/orange-cat-win.github.io/2020/09/20/%E5%BC%A0%E5%AD%90%E6%A5%A0_18011457/</url>
-    <content><![CDATA[<p><img src="D:\blog\catblog\source_posts\张子楠_18011457.assets\image-20200920170228700.png" alt="image-20200920170228700"></p>
-<h1 id="作业一"><a href="#作业一" class="headerlink" title="作业一"></a>作业一</h1><h2 id="socket对网站数据的请求和访问"><a href="#socket对网站数据的请求和访问" class="headerlink" title="socket对网站数据的请求和访问"></a>socket对网站数据的请求和访问</h2><p>​                                         张子楠 18011457 数据科学与大数据班</p>
-<p><strong>一、实验内容：</strong></p>
-<p>1.仅仅使用Python的socket（不允许使用额外第三方包）完成浏览器对这个程序的请求，浏览器显示的结 果为Hello World+学号</p>
-<p>2.仅仅使用Python的socket（不允许使用额外第三方包）完成对网站例如<a href="https://www.baidu.com等知名/">https://www.baidu.com等知名</a> 网站的请求访问，程序应返回网站请求后的数据。</p>
-<p><strong>二、实验步骤：</strong></p>
-<p>1.</p>
-<p>A.思路步骤：</p>
-<p>​    通过课堂例子上面写好server服务端，建立好端口为7777，采用utf-8编码方式，对照网页F12的头信息文件的要求，写好头信息文件的格式，然后将数据”hello18011457”发送到网页上面实现功能</p>
-<p>B.代码展示：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line">server = socket.socket()</span><br><span class="line">server.bind((<span class="string">&#x27;localhost&#x27;</span>, <span class="number">7777</span>))</span><br><span class="line">server.listen(<span class="number">5</span>)</span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    conn, addr = server.accept()</span><br><span class="line">    buf = conn.recv(<span class="number">1024</span>)</span><br><span class="line">    print(buf.decode(<span class="string">&#x27;utf8&#x27;</span>))</span><br><span class="line">    conn.sendall(bytes(<span class="string">&quot;HTTP/1.1 201 OK\r\n\r\n&quot;</span>, <span class="string">&#x27;utf8&#x27;</span>))</span><br><span class="line">    conn.sendall(bytes(<span class="string">&quot;&lt;h1 style=&#x27;color:purple;text-align:center&#x27;&gt;hello18011457&lt;/h1&gt;&quot;</span>, <span class="string">&#x27;utf8&#x27;</span>))</span><br><span class="line">    conn.close()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>C.结果截图:</p>
-<p><img src="D:\blog\catblog\source_posts\张子楠_18011457.assets\image-20200920171212289.png" alt="image-20200920171212289"></p>
-<p>2.</p>
-<p>A.思路步骤:</p>
-<p>  建立好url和port,通过socket函数连接好，发送符合要求的头信息文件，再通过socker.recv函数接受返回来的网站信息,最后打印信息即可</p>
-<p>B.代码展示:</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line">url = <span class="string">&#x27;www.baidu.com&#x27;</span></span><br><span class="line">port = <span class="number">80</span></span><br><span class="line">sock = socket.socket()</span><br><span class="line">sock.connect((url, port))</span><br><span class="line">request_url = <span class="string">&#x27;GET / HTTP/1.1\r\nHost: www.baidu.com\r\nConnection: close\r\n\r\n&#x27;</span></span><br><span class="line">sock.send(request_url.encode())</span><br><span class="line">response = <span class="string">b&#x27;&#x27;</span></span><br><span class="line">rec = sock.recv(<span class="number">1024</span>)</span><br><span class="line"><span class="keyword">while</span> rec:</span><br><span class="line">    response += rec</span><br><span class="line">    rec = sock.recv(<span class="number">1024</span>)</span><br><span class="line">print(response.decode())</span><br></pre></td></tr></table></figure>
-
-<p>C.结果截图:</p>
-<p><img src="D:\blog\catblog\source_posts\张子楠_18011457.assets\image-20200920171555330.png" alt="image-20200920171555330"></p>
-<p><img src="D:\blog\catblog\source_posts\张子楠_18011457.assets\image-20200920171614489.png" alt="image-20200920171614489"></p>
-<p><strong>三、心得体会：</strong></p>
-<p>​    这是数据抓取和挖掘的第一次作业，在尝试的过程中计算机网络的知识储备不够，很多协议理解不到位，很多名词理解不充分，这方面自己应该加强，老师在下次上课的时候可以给我讲一下这个头信息文件的格式，自己对于这个还是不怎么很理解，另外就是建议老师再课上多加强我们对于python的使用，虽然之前学过python语言，但是基础不牢靠不扎实，希望老师在课上对于一些重要的语法不要一笔带过，讲一下大概的，我们下去消化理解这些语法，这样一来能增强我们对于python的使用，而且对于这门课会有一个更好的理解和收获，谢谢老师</p>
-]]></content>
   </entry>
   <entry>
     <title>西利利</title>

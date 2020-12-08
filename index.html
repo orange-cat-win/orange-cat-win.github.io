@@ -231,7 +231,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/orange-cat-win.github.io/archives">
-          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -297,107 +297,6 @@
       
 
       
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="http://orange-cat-win.github.io/2020/09/20/%E5%BC%A0%E5%AD%90%E6%A5%A0_18011457/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=471441489,621305516&fm=26&gp=0.jpg">
-      <meta itemprop="name" content="orangecat">
-      <meta itemprop="description" content="希望当一只永远向上的喵星人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="苍猫的小猫屋">
-    </span>
-
-    
-    
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/orange-cat-win.github.io/2020/09/20/%E5%BC%A0%E5%AD%90%E6%A5%A0_18011457/" class="post-title-link" itemprop="url">未命名</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-09-20 17:03:57 / 修改时间：17:22:08" itemprop="dateCreated datePublished" datetime="2020-09-20T17:03:57+08:00">2020-09-20</time>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/orange-cat-win.github.io/2020/09/20/%E5%BC%A0%E5%AD%90%E6%A5%A0_18011457/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/orange-cat-win.github.io/2020/09/20/%E5%BC%A0%E5%AD%90%E6%A5%A0_18011457/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p><img src="D:\blog\catblog\source_posts\张子楠_18011457.assets\image-20200920170228700.png" alt="image-20200920170228700"></p>
-<h1 id="作业一"><a href="#作业一" class="headerlink" title="作业一"></a>作业一</h1><h2 id="socket对网站数据的请求和访问"><a href="#socket对网站数据的请求和访问" class="headerlink" title="socket对网站数据的请求和访问"></a>socket对网站数据的请求和访问</h2><p>​                                         张子楠 18011457 数据科学与大数据班</p>
-<p><strong>一、实验内容：</strong></p>
-<p>1.仅仅使用Python的socket（不允许使用额外第三方包）完成浏览器对这个程序的请求，浏览器显示的结 果为Hello World+学号</p>
-<p>2.仅仅使用Python的socket（不允许使用额外第三方包）完成对网站例如<a target="_blank" rel="noopener" href="https://www.baidu.com等知名/">https://www.baidu.com等知名</a> 网站的请求访问，程序应返回网站请求后的数据。</p>
-<p><strong>二、实验步骤：</strong></p>
-<p>1.</p>
-<p>A.思路步骤：</p>
-<p>​    通过课堂例子上面写好server服务端，建立好端口为7777，采用utf-8编码方式，对照网页F12的头信息文件的要求，写好头信息文件的格式，然后将数据”hello18011457”发送到网页上面实现功能</p>
-<p>B.代码展示：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line">server = socket.socket()</span><br><span class="line">server.bind((<span class="string">&#x27;localhost&#x27;</span>, <span class="number">7777</span>))</span><br><span class="line">server.listen(<span class="number">5</span>)</span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    conn, addr = server.accept()</span><br><span class="line">    buf = conn.recv(<span class="number">1024</span>)</span><br><span class="line">    print(buf.decode(<span class="string">&#x27;utf8&#x27;</span>))</span><br><span class="line">    conn.sendall(bytes(<span class="string">&quot;HTTP/1.1 201 OK\r\n\r\n&quot;</span>, <span class="string">&#x27;utf8&#x27;</span>))</span><br><span class="line">    conn.sendall(bytes(<span class="string">&quot;&lt;h1 style=&#x27;color:purple;text-align:center&#x27;&gt;hello18011457&lt;/h1&gt;&quot;</span>, <span class="string">&#x27;utf8&#x27;</span>))</span><br><span class="line">    conn.close()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>C.结果截图:</p>
-<p><img src="D:\blog\catblog\source_posts\张子楠_18011457.assets\image-20200920171212289.png" alt="image-20200920171212289"></p>
-<p>2.</p>
-<p>A.思路步骤:</p>
-<p>  建立好url和port,通过socket函数连接好，发送符合要求的头信息文件，再通过socker.recv函数接受返回来的网站信息,最后打印信息即可</p>
-<p>B.代码展示:</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line">url = <span class="string">&#x27;www.baidu.com&#x27;</span></span><br><span class="line">port = <span class="number">80</span></span><br><span class="line">sock = socket.socket()</span><br><span class="line">sock.connect((url, port))</span><br><span class="line">request_url = <span class="string">&#x27;GET / HTTP/1.1\r\nHost: www.baidu.com\r\nConnection: close\r\n\r\n&#x27;</span></span><br><span class="line">sock.send(request_url.encode())</span><br><span class="line">response = <span class="string">b&#x27;&#x27;</span></span><br><span class="line">rec = sock.recv(<span class="number">1024</span>)</span><br><span class="line"><span class="keyword">while</span> rec:</span><br><span class="line">    response += rec</span><br><span class="line">    rec = sock.recv(<span class="number">1024</span>)</span><br><span class="line">print(response.decode())</span><br></pre></td></tr></table></figure>
-
-<p>C.结果截图:</p>
-<p><img src="D:\blog\catblog\source_posts\张子楠_18011457.assets\image-20200920171555330.png" alt="image-20200920171555330"></p>
-<p><img src="D:\blog\catblog\source_posts\张子楠_18011457.assets\image-20200920171614489.png" alt="image-20200920171614489"></p>
-<p><strong>三、心得体会：</strong></p>
-<p>​    这是数据抓取和挖掘的第一次作业，在尝试的过程中计算机网络的知识储备不够，很多协议理解不到位，很多名词理解不充分，这方面自己应该加强，老师在下次上课的时候可以给我讲一下这个头信息文件的格式，自己对于这个还是不怎么很理解，另外就是建议老师再课上多加强我们对于python的使用，虽然之前学过python语言，但是基础不牢靠不扎实，希望老师在课上对于一些重要的语法不要一笔带过，讲一下大概的，我们下去消化理解这些语法，这样一来能增强我们对于python的使用，而且对于这门课会有一个更好的理解和收获，谢谢老师</p>
-
-      
-    </div>
-
-    
-    
-    
-    <div>
-  
-</div>
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
       
   
   
